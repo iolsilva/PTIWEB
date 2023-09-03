@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+
+    <title>AeroMazz Elite</title>
+  </head>
+  <body>
+    <nav class="cabecalho">
+      <img
+        src="./img/LOGO AEROMAZZ.png"
+        alt="Logotipo da empresa aeromazz"
+        class="logo"
+      />
+      <input type="checkbox" id="menu" class="container__botao" />
+      <label for="menu" class="container__rotulo">
+        <span class="cabeçalho__menu-hamburguer container__imagem"></span>
+      </label>
+      <ul class="lista-menu">
+        <li class="lista-menu__item">
+          <a href="#home" class="lista-menu__link">Home</a>
+        </li>
+        <li class="lista-menu__item">
+          <a href="#servico" class="lista-menu__link">Serviços</a>
+        </li>
+        <li class="lista-menu__item">
+          <a href="#beneficio" class="lista-menu__link">Benefícios</a>
+        </li>
+        <li class="lista-menu__item">
+          <a href="#contato" class="lista-menu__link">Contato</a>
+        </li>
+        <li class="lista-menu__item">
+          <a href="#rs" class="lista-menu__link">Redes Sociais</a>
+        </li>
+      </ul>
+    </nav>
+    <section class="banner" id="home">
+      <div class="banner__container">
+        <div class="box__container">
+          <h2 id="titulo--voe">Voe além</h2>
+          <h2 id="titulo--continuacao">dos <br />limites</h2>
+        </div>
+        <p class="descricao">
+          Imagine um mundo onde o <br />céu não é mais o limite, mas<br />
+          sim o seu playground pessoal
+        </p>
+      </div>
+      <img
+        src="./img/ELEMENTO SETA 1.png"
+        alt=""
+        id="banner__seta-inferior"
+        alt="Elemento seta apontando para direita"
+      />
+      <img
+        src="./img/ELEMENTO SETA 2.png"
+        alt=""
+        id="banner__seta-superior"
+        alt="Elemento seta apontando para direita"
+      />
+    </section>
+
+    <section class="servicos" id="servico">
+      <div class="box__servicos">
+        <div class="texto__servico">
+          <h1 class="titulo">Nossos<br />Serviços</h1>
+          <p class="descricao__servico">Bem-vindo à AeroMazz</p>
+          <p class="descricao__servico">
+            Sua porta de entrada para uma experiência<br />de viagem totalmente
+            nova e emocionante. Se você<br />deseja escapar das rotas
+            convencionais e das<br />
+            longas esperas em aeroportos, está na hora de<br />conhecer o que
+            temos a oferecer.
+          </p>
+          <a href="#" class="contrate">CONTRATE-NOS</a>
+        </div>
+        <img
+          src="./img/FOTO CASAL .png"
+          alt=""
+          class="foto__casal"
+          alt="Foto de casal conversando dentro do avião"
+        />
+        <img
+          src="./img/ELEMENTO SETA 2.png"
+          alt=""
+          id="servicos__seta"
+          alt="Elemento seta apontando para direita"
+        />
+        <img
+          src="./img/ELEMENTO TICKET.png"
+          alt=""
+          id="servicos__ticket"
+          alt="Imagem de passagem"
+        />
+      </div>
+      <ul class="lista-servicos">
+        <li class="lista-servicos__item">
+          <img src="./img/FOTO TAXI PERSONALIZADO.png" alt="casal dentro do
+          avião" / class="servicos__img">
+          <a href="#" class="lista-servicos__link"
+            >Táxi Aéreo<br />
+            Personalizado</a
+          >
+          <p class="servicos__descricao">
+            Voos sob demanda para os<br />destinos definidos por você,<br />
+            sendo possível escolher a <br />data e para onde deseja voar.
+          </p>
+        </li>
+        <li class="lista-servicos__item">
+          <img src="./img/FOTO VIAGENS DE LUXO.png" alt="Mulher dentro de um
+          avião de luxo" / class="servicos__img">
+          <a href="#" class="lista-servicos__link"
+            >Viagens<br />
+            de Luxo</a
+          >
+          <p class="servicos__descricao">
+            Pacotes de viagem completos<br />
+            que incluem transporte aéreo,<br />
+            acomodações em hotéis de<br />
+            luxo, serviços de concierge e<br />
+            experiências exclusivas no destino.
+          </p>
+        </li>
+        <li class="lista-servicos__item">
+          <img src="./img/FOTO VIAGENS DE NEGÓCIO .png" alt="Homem pensativo
+          enquanto viaja a negócio" / class="servicos__img">
+          <a href="#" class="lista-servicos__link"
+            >Viagens<br />
+            de Negócios</a
+          >
+          <p class="servicos__descricao">
+            Soluções de viagem para<br />
+            executivos e profissionais que<br />
+            desejam otimizar seu tempo,<br />
+            incluindo voos diretos para<br />
+            reuniões e eventos.
+          </p>
+        </li>
+        <li class="lista-servicos__item">
+          <img src="./img/FOTO ALUGUEL DE AERONAVES.png" alt="grupo de amigos
+          felizes" / class="servicos__img">
+          <a href="#" class="lista-servicos__link"
+            >Aluguel<br />
+            de Aeronaves</a
+          >
+          <p class="servicos__descricao">
+            Possibilidade de aluguel de<br />
+            aeronaves privadas para<br />
+            clientes que desejam ter total<br />
+            controle sobre sua jornada.
+          </p>
+        </li>
+      </ul>
+    </section>
+
+    <section class="beneficios" id="beneficio">
+      <h1 class="titulo__beneficio">Benefícios</h1>
+      <div class="beneficios__container">
+        <div class="box__beneficio">
+          <ul class="lista-beneficios">
+            <li class="lista-beneficios__item">
+              <a href="#" class="lista-beneficios__link"
+                >Eficiência e Flexibilidade</a
+              >
+              <p class="beneficios__descricao">
+                Com os nossos serviços de táxi aéreo, você define seu
+                cronograma<br />
+                sem atrasos e sem paradas desnecessárias.
+              </p>
+            </li>
+            <li class="lista-beneficios__item">
+              <a href="#" class="lista-beneficios__link">Destinos Ilimitados</a>
+              <p class="beneficios__descricao">
+                Conectamos você a uma variedade de destinos, muitos dos quais<br />
+                são difíceis de alcançar por meios de transporte convencionais.
+              </p>
+            </li>
+            <li class="lista-beneficios__item">
+              <a href="#" class="lista-beneficios__link"
+                >Equipe Profissional e Segura</a
+              >
+              <p class="beneficios__descricao">
+                Nossos pilotos são altamente treinados e seguem rigorosas
+                normas<br />
+                de segurança, garantindo uma jornada tranquila e confiável.
+              </p>
+            </li>
+            <li class="lista-beneficios__item">
+              <a href="#" class="lista-beneficios__link"
+                >Experiência Personalizada</a
+              >
+              <p class="beneficios__descricao">
+                Nossa equipe está pronta para atender às suas solicitações<br />
+                especiais e garantir que sua experiência conosco seja
+                excepcional<br />
+                do início ao fim.
+              </p>
+            </li>
+          </ul>
+        </div>
+        <div class="imagens__beneficio">
+          <img
+            src="./img/ELEMENTO AVIÃO.png"
+            alt=""
+            class="beneficios__img"
+            alt="Imagem de um avião"
+          />
+          <img
+            src="./img/ELEMENTO SETA 2.png"
+            alt=""
+            id="beneficios__seta"
+            alt="Elemento seta apontando para direita"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section class="formulario" id="contato">
+      <div class="formulario__container">
+        <img
+          src="./img/FOTO MOÇO.png"
+          alt=""
+          class="img__formulario"
+          alt="Rapaz dentro de um avião escutando música"
+        />
+        <img
+          src="./img/ELEMENTO SETA 1.png"
+          alt=""
+          id="formulario__seta"
+          alt="Elemento seta apontando para direita"
+        />
+        <form>
+          <fieldset>
+            <legend>
+              <b
+                >Solicitar <br />
+                Viagem</b
+              >
+            </legend>
+            <div class="inputbox">
+              <label for="nome">Nome</label>
+              <br />
+              <input
+                type="text"
+                name="nome"
+                id="nome"
+                class="inputUser"
+                required
+              />
+            </div>
+            <br /><br />
+            <div class="inputbox">
+              <label for="email">E-mail</label>
+              <br />
+              <input
+                type="email"
+                name="email"
+                id="email"
+                class="inputUser"
+                required
+              />
+            </div>
+            <br /><br />
+            <div class="inputbox">
+              <label for="telefone">Telefone</label>
+              <br />
+              <input
+                type="tel"
+                name="telefone"
+                id="telefone"
+                class="inputUser"
+                required
+              />
+            </div>
+            <br /><br />
+            <div class="inputbox">
+              <label>Serviço Desejável</label>
+              <select name="servicodesejado" id="servicodesejado">
+                <option selected disabled value="">Selecione</option>
+                <option>Táxi Aéreo</option>
+                <option>Viagens de Luxo</option>
+                <option>Alguel de Aeronaves</option>
+                <option>Viagens de Negócios</option>
+              </select>
+            </div>
+            <br /><br />
+            <input
+              type="submit"
+              name="submit"
+              id="submit"
+              class="submit"
+              value="ENVIAR"
+            />
+          </fieldset>
+        </form>
+      </div>
+    </section>
+
+    <section class="redes-sociais" id="rs">
+      <div class="rs__container">
+        <div class="redes">
+          <h1 class="rs__titulo">Redes<br />Sociais</h1>
+          <ul class="lista__rs">
+            <li class="lista__rs-item">
+              <img src="./img/ÍCONE INSTAGRAM.png" alt="icone do instagram" />
+              <a href="#" class="lista__rs-link">@AEROMAZZ</a>
+            </li>
+            <li class="lista__rs-item">
+              <img src="./img/ÍCONE WHATSAPP.png" alt="icone do Whatsapp" />
+              <a href="#" class="lista__rs-link">(11) 98834-0990</a>
+            </li>
+            <li class="lista__rs-item">
+              <img src="./img/ÍCONE TIKTOK.png" alt="icone do TikTok" />
+              <a href="#" class="lista__rs-link">@AERO.MAZZ</a>
+            </li>
+            <li class="lista__rs-item">
+              <img src="./img/ÍCONE FACEBOOK.png" alt="icone do Facebook" />
+              <a href="#" class="lista__rs-link">FACEBOOK/AEROMAZZ</a>
+            </li>
+            <li class="lista__rs-item">
+              <img src="./img/ÍCONE YOUTUBE.png" alt="icone do Youtube" />
+              <a href="#" class="lista__rs-link">YOUTUBE.COM/TAXIAEROMAZZ</a>
+            </li>
+          </ul>
+        </div>
+        <img
+          src="./img/FOTO MULHER.png"
+          alt=""
+          class="img__rs"
+          alt="Mulher com um mapa na mão"
+        />
+        <img
+          src="./img/ELEMENTO SETA 1.png"
+          alt=""
+          id="rs__seta"
+          alt="Elemento seta apontada para esquerda"
+        />
+      </div>
+    </section>
+
+    <footer class="rodape">
+      <p class="texto__rodape">
+        © AEROMAZZ - Todos os direitos reservados | Desenvolvido por Iago
+      </p>
+    </footer>
+  </body>
+</html>

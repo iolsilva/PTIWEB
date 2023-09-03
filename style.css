@@ -1,0 +1,28 @@
+@import url(./styles/cabecalho.css);
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+@import url(./fonts/Hanson-Bold.ttf);
+@import url(./styles/banner.css);
+@import url(./styles/servicos.css);
+@import url(./styles/beneficios.css);
+@import url(./styles/formulario.css);
+@import url(./styles/redesocial.css);
+@import url(./styles/rodape.css);
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: var(--font-texto);
+}
+
+:root {
+  --cor-de-fundo: #191e1c;
+  --cor-de-titulo: #fcff36;
+  --font-texto: "Montserrat";
+  --font-titulo: "Hanson-Bold";
+}
+
+.titulo {
+  font-size: 50px;
+  color: var(--cor-de-titulo);
+}

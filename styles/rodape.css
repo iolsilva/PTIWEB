@@ -1,0 +1,10 @@
+.rodape {
+  background-color: #8f8e8e;
+  padding: 1em 0;
+}
+
+.texto__rodape {
+  font-weight: 700;
+  font-size: 10px;
+  text-align: center;
+}

@@ -1,0 +1,105 @@
+.formulario {
+  background-color: var(--cor-de-fundo);
+  padding: 2em;
+  text-align: center;
+}
+
+.formulario__container {
+  display: flex;
+  justify-content: center;
+  margin-top: 3em;
+  position: relative;
+  align-items: center;
+}
+
+.img__formulario {
+  width: 25vw;
+  height: 45vh;
+  margin: 0 10em 0 0;
+}
+
+#formulario__seta {
+  width: 15vw;
+  height: 18vh;
+  position: absolute;
+  top: 15vh;
+  left: 6vw;
+}
+
+.inputbox {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.inputbox > label {
+  padding-left: 1em;
+  color: var(--cor-de-titulo);
+}
+
+.inputUser {
+  padding: 1.2em 3em 1.2em 0.5em;
+  width: 20vw;
+  border-radius: 30px;
+  background-color: #ffffff;
+}
+
+select {
+  margin: 1em 0;
+  padding: 1.2em 3em 1.2em 0.5em;
+  width: 100%;
+  border-radius: 30px;
+  background-color: #ffffff;
+}
+
+.area__inputradio {
+  text-align: start;
+}
+
+fieldset {
+  padding: 2 0em;
+  border-radius: 20px;
+  margin: auto;
+}
+
+fieldset > legend {
+  margin: 0 0 1.5em 0;
+  text-align: center;
+  font-weight: 700;
+  font-size: 25px;
+  color: var(--cor-de-titulo);
+}
+
+.submit {
+  text-align: center;
+  padding: 0.5em 4em;
+  border-radius: 15px;
+  background-color: #cbbb26;
+  font-weight: 700;
+  font-size: 13px;
+}
+
+@media screen and (max-width: 768px) {
+  .formulario__container {
+    justify-content: space-around;
+    flex-direction: column-reverse;
+  }
+
+  .inputUser {
+    padding: 1.2em 10em 1.2em 0.5em;
+  }
+
+  .img__formulario {
+    width: 65%;
+    height: 35vh;
+    margin: 2em 0;
+  }
+
+  #formulario__seta {
+    left: 0;
+    top: 75vh;
+    width: 35vw;
+  }
+}
